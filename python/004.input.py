@@ -26,7 +26,7 @@ mensajes= [] # La lista esta vacia
 print(bool(mensajes)) # False
 
 alta= input('Introduce si esdado de alta (1 o 0)')
-alta_bool= bool (int(alta)) # Int para hcerlo de tipo entero
+alta_bool= bool (int(alta)) # Int para hacerlo de tipo entero
 print('Esta dado de alta', alta_bool)
 
 alta_bool =input('Introduce si está dado de alta 1 o 0') == '1' # True o False
