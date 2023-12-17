@@ -45,6 +45,59 @@ conjunto_de_frutas = { "manzana", "naranja"}
  
  diccionario_precios = {"manzana": 1.5, "naranja": 0.99}
 
+# Contar letras (len)
+
+ longuitud = len(texto)
+
+# Poner el texto en mayúscular (upper)
+.upper()
+print('Texto en mayusculas',texto_2.upper())
+
+# Poner el texto en minúsculas (lower)
+.lower
+print('Texto en minusculas',texto_2.lower())
+
+# Remplazar una palabra por otra (replace)
+.replace()
+Primero ponemos la palabra que queremos remplazar.
+
+texto_adios = texto.replace('Hola', 'Adios')
+print(texto_adios)
+
+# Añade un elemento al final (append)
+.append()
+clothes.append('Bufanda')
+
+   * Para insertar en una posicion concreta
+      clothes.insert(2, 'Reloj')   El 2 indica la posicion en la que lo queremos
+
+## BORRAR
+
+   # remove()
+      .remove()
+      names = ['Ana', 'Diego', 'Gemma', 'Alan']
+      names.remove('Alan')
+
+   # pop ()
+      .pop()
+      Elimina y devuelve un elemento de la lista por su indice
+      names = ['Ana', 'Diego', 'Gemma', 'Alan', 'Albora', 'Raquel']
+      ultimo = names.pop() # sin indice te devuelve el último
+      diego = names.pop(1)
+
+   # del
+      names = ['Ana', 'Diego', 'Gemma', 'Alan', 'Albora', 'Raquel']
+      del names[0]
+
+## ORDENAR LISTAS
+
+   # ASCENDENTE (sort)
+   .sort()
+    coches.sort()
+
+   # DESCENDENTE (reverse)
+   reverse()
+   coches.reverse()
 
  ## OPERADORES
 
@@ -143,6 +196,9 @@ listas o truplas, y devuelven un valor booleano.
   numero = -5
  valor_absoluto = numero if numero >= 0 else -numero
  print(valor_absoluto)
+
+ ## Bucle WHILE
+ 
 
 
 

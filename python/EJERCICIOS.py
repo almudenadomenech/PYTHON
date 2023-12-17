@@ -106,3 +106,161 @@ respuesta= "Madrid"
 Acierto = input('Cual es la capital de España?:').lower
 if Acierto== respuesta:
     print('Respuesta correcta')
+    
+    
+    
+usuario_correcto= 'admin'
+password_correcta= '1234'
+
+usuario= input('Introduce tu usuario:')
+password= input ('Introduce tu password:')
+
+if usuario_correcto == usuario and password_correcta == password:
+    print('Credenciales correctas')
+else:
+    print('Credenciales incorrectas')
+    
+es_estudiante = input('¿Es estudiante? (si/no): ').lower()== 'si'
+precio_total = float(input('Introduce compra: '))
+
+if es_estudiante or precio_total > 100:
+    precio_total = round(precio_total * 0.80, 2)
+    print(f'Tienes descuento, precio: {precio_total}')
+else:
+    print(f'No tienes descuento: {precio_total}')
+    
+print("A" in 'Almudena')
+
+lista1 = ['almu', 'maria', 'carmen', 'juan', 'pedro']
+print(lista1)
+del lista1 [1]
+print(lista1)
+
+lista1 = ['almu', 'maria', 'carmen', 'juan', 'pedro']
+print(lista1)
+lista1.remove('almu')
+print(lista1)
+
+contador = 0
+while contador < 10:
+    contador += 1
+    print(f'contador: {contador}')
+    
+    
+password_correct = "admin"
+password = ""
+
+while password != password_correct:
+    password = input('Introduce la password: ').replace(" ", "")
+    
+print('Credenciales correctas.')
+
+
+estaciones = ['verano', 'invierno', 'otoño', 'primavera']
+estacion= ''
+while estacion not in estaciones:
+    estacion = input('Introduce estacion: ')
+    
+print ('estacion correcta')
+
+a= 10
+b = 5
+print( a + b)
+print( a - b)
+print(a * b)
+print(a / b)
+print (a % b)
+print (a ** b)
+print( a // b)
+
+c= 7
+d = 4
+print(c == d)
+print(c != d)
+print(c > d)
+print(c < d)
+print(c >= d)
+print(c <= d)
+
+c += 3
+c -= 3
+c *= 3
+c /= 3
+c %= 3
+c **= 3
+c //= 3
+
+t= True
+f= False
+
+print( t and f)
+print(t or f)
+print( not f)
+
+num1= 10
+num2 = 10
+print( num1 is num2)
+print(num1 is not num2)
+
+lista = [1, 2, 3, 4, 5]
+print(2 in lista)
+print(8 not in lista)
+
+# EJERCICIO CERTIDEVS
+
+num = 4
+if num > 0:
+    print('el numero es positivo')
+elif num ==0:
+    print('el numero es igual a 0')
+else:
+    print('el numero es negativo')
+    
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for numero in numeros:
+    print(numero)
+    
+    
+num1= 1    
+while num1<= 10:
+    print(num1)
+    num1+=1
+    
+numeros= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for numero in numeros:
+    if numero == 5:
+        break
+    print(numero)
+    
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for numero in numeros:
+    if numero == 5:
+        continue
+    print(numero)
+    
+
+  
+entero = 1
+flotante = 1.50
+complejo = 2 + 3j
+booleano = True
+texto= 'Hola mundo'
+
+
+palabra='murcielago'
+letra1= palabra[0]
+print(letra1)
+letra9= palabra[9]
+print(letra9)
+  
+    
+    
+
+    
+
+    
+
+
+
+ 
+
