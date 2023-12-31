@@ -254,9 +254,79 @@ letra9= palabra[9]
 print(letra9)
   
     
+def multiplicar(num1, num2, num3=4):
+    return num1 * num2
+
+resultado = multiplicar(3, 5)
+print(resultado)
+
+
+def multiplicar(num1, num2, num3= 4):
+    """Esta funcion multiplica """
+    return num1 * num2
+resultado = multiplicar(5, 3)
+print(resultado)
+
+def saludar(nombre='Amigo'):
+    """Esta funcion imprime un saludo"""
+    print("Hola, " + nombre +"Buen día")
+
+
+def es_par(numero):
+    """Esta función define si un numero es par o impar"""
+    if numero //2:
+        return True
+    else:
+        return False
     
 
+resultado= es_par(2)
+print(resultado)   
+
+
+
+
+
+def multiplicar(num1, num2):
+    """Esta función multiplica dos parámetros"""
+    return num1 * num2
+
+resultado= multiplicar(5, 3)
+print(resultado)
+
+def multiplicar(num1, num2, num3= 1):
+    """El tercer parámetro es opcional"""
+    return num1 * num2 * num3
+
+
+resultado= multiplicar(5, 3)
+print(resultado)
+
+def saludar(nombre= 'Amigo'):
+    """Esta función imprime un saludo"""
+    print("Hola, "+ nombre + " " +"Buen día")
+
+saludar('Almu')
+print(saludar)
+
+
+def es_par(numero):
+    """Esta función define si un numero es par o impar"""
+    if numero %2 == 0:
+        return True
+    else:
+        return False
     
+
+resultado= es_par(1)
+print(resultado)     
+
+try:  
+    print(x)
+except:
+    print("An exception occurred")
+print("Hola")
+
 
     
 
